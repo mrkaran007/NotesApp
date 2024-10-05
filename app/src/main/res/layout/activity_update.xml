@@ -19,7 +19,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
         android:text="@string/edit_note"
-        android:textColor="@color/orange"
+        android:textColor="@color/blue"
         android:textSize="24sp"
         android:textStyle="bold"/>
 
@@ -36,11 +36,11 @@
         android:id="@+id/updateTitleEditText"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:hint="@string/enter_the_title"
+        android:hint="@string/title"
         android:padding="12dp"
         android:textSize="20sp"
         android:layout_below="@+id/editNoteHeading"
-        android:background="@drawable/orage_border"
+        android:background="@drawable/blue_border"
         android:layout_marginTop="16dp"
         android:maxLines="1"
         android:fontFamily="@font/poppins"/>
@@ -53,7 +53,7 @@
         android:gravity="top"
         android:padding="12dp"
         android:textSize="18sp"
-        android:background="@drawable/orage_border"
+        android:background="@drawable/blue_border"
         android:layout_below="@+id/updateTitleEditText"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins"/>

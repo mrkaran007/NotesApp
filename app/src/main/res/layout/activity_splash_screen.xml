@@ -5,14 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff6426"
+    android:background="#599ad2"
     tools:context=".SplashScreenActivity">
 
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:layout_width="110dp"
-        android:layout_height="110dp"
-        android:scaleType="center"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/notes_app_image"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

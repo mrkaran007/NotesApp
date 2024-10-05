@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         db = NotesDatabaseHelper(this)
         notesAdapter = NotesAdapter(db.getAllNotes(),this)
 
-//        binding.notesRecyclerView.layoutManager = LinearLayoutManager(this)
+
         binding.notesRecyclerView.layoutManager = GridLayoutManager(this,2)
         binding.notesRecyclerView.adapter = notesAdapter
 
